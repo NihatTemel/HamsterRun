@@ -3885,9 +3885,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a8f830113737414f90217c393833373, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 0.08
-  LerpValue: 0.035
-  DriftFrowardSpeed: 0.07
+  MoveSpeed: 0.25
+  LerpValue: 0.35
+  DriftFrowardSpeed: 0.2
   survive: 1
   grounded: 0
   GroundPlay: 0
@@ -4255,7 +4255,7 @@ MonoBehaviour:
   target: {fileID: 1625932461}
   isCustomOffset: 0
   offset: {x: 0, y: 0, z: 0}
-  smoothSpeed: 0.08
+  smoothSpeed: 1
 --- !u!1 &1742726519 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a8a26003967bfc343ab29a2382990198, type: 3}
