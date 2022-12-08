@@ -3931,7 +3931,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: cf29da9980f321946ae784019ec7ec11, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.529
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4093,6 +4093,7 @@ GameObject:
   - component: {fileID: 1687258583}
   - component: {fileID: 1687258586}
   - component: {fileID: 1687258587}
+  - component: {fileID: 1687258588}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4255,7 +4256,22 @@ MonoBehaviour:
   target: {fileID: 1625932461}
   isCustomOffset: 0
   offset: {x: 0, y: 0, z: 0}
-  smoothSpeed: 1
+  smoothSpeed: 5
+--- !u!114 &1687258588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687258581}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79a7dd3d7766d704392c8844bc7233ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1625932461}
+  camera: {fileID: 1687258585}
+  followSpeed: 1
 --- !u!1 &1742726519 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a8a26003967bfc343ab29a2382990198, type: 3}
