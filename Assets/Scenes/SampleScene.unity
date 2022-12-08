@@ -1574,7 +1574,7 @@ MonoBehaviour:
   - {fileID: 1241818352}
   - {fileID: 864281779}
   - {fileID: 623168077}
-  duration: 0.6
+  duration: 1
   Player: {fileID: 1625932458}
   FadeImg: {fileID: 441926990}
 --- !u!1 &761970271
